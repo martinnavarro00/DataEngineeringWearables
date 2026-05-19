@@ -1,0 +1,47 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Tutorial 01\"\n",
+        "format: html\n",
+        "---\n",
+        "\n",
+        "## Python Example"
+      ],
+      "id": "ccce1a74"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import numpy as np\n",
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "x = np.linspace(0, 2 * np.pi, 100)\n",
+        "y = np.sin(x)\n",
+        "\n",
+        "plt.plot(x, y)\n",
+        "plt.title(\"Sine Wave\")\n",
+        "plt.xlabel(\"x\")\n",
+        "plt.ylabel(\"sin(x)\")\n",
+        "plt.show()"
+      ],
+      "id": "86e7515b",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/Users/I776345/Documents/PERSONAL/DataEngineeringWearables/DataEngineeringWearables/.venv/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
